@@ -26,13 +26,22 @@ position: relative;
 
 section#celular {
     position: absolute;
-    top: 200px;
-    left:200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
     height: 627px; ;
     width: 311px ;  
-    transform: translate(-50% -50%);
-   
     background-image: url(../imagens/frame-iphone.png);
     background-repeat: no-repeat;
+    background-size: cover;
+ 
 
+}
+
+#tela {
+    position: relative;
+    top: 78px;
+    left: 20px;
+    width: 21vw;
+    height: 60vh;
 }
