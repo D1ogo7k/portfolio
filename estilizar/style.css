@@ -6,42 +6,80 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+    width: 0px;
+    height: 0px;
+}
+
 html , body {
     height: 100vh;
     width: 100vw;
-    background-image: url(../imagens/fundo01.jpg);
-
-    
-    background-size: cover;
+   
     
 }
 
+html {
 
+}
+
+body{ 
+    background-image: url(../imagens/fundo01.jpg);
+    background-attachment: fixed; 
+    background-size: cover;
+}
 
 main {
     height: 100vh;
 position: relative;
 
 }
-
 section#celular {
     position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-    height: 627px; ;
-    width: 311px ;  
+  width: 311px;
+  height: 627px;
     background-image: url(../imagens/frame-iphone.png);
     background-repeat: no-repeat;
     background-size: cover;
- 
-
+    
+    
 }
 
-#tela {
+iframe#tela {
     position: relative;
-    top: 78px;
-    left: 20px;
-    width: 21vw;
-    height: 60vh;
+    top: 80px;
+    left: 21px;
+    width: 269px;
+    height: 472px;
 }
+
+iframe#insta {
+    position: relative;
+    top: 80px;
+    left: 21px;
+    width: 269px;
+    height: 472px;
+}
+
+
+section#rede-sociais {
+    text-align: right;
+   
+}
+
+section#rede-sociais img {
+    width: 50px;
+    border-radius: 50%;
+    margin: 20px;
+    box-shadow: 2px 2px 5px black;
+  
+}
+
+section#rede-sociais img:hover {
+    box-shadow: 0px 0px 2px 3px #ffffff92;
+    border-radius: 40%;
+    transform: translate(-5px, -5px);
+    transition:0.5s;
+   
+} 
