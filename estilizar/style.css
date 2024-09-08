@@ -6,6 +6,8 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
 ::-webkit-scrollbar {
     width: 0px;
     height: 0px;
@@ -65,7 +67,7 @@ iframe#insta {
 
 
 section#rede-sociais {
-    text-align: right;
+
    
 }
 
